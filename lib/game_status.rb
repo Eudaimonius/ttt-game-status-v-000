@@ -100,8 +100,8 @@ winner = won?(board)
 #binding.pry
 end
 
-ab [0] =board[winner [0]]
-if ab[0]=="X" || ab[0]== "O"
+ab [0]= board[winner[0]]
+if ab[0] == "X" || ab[0]== "O"
 return ab
 end
 
