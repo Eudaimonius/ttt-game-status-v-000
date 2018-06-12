@@ -99,7 +99,7 @@ won?(board).detect do |winner|
 winner= won?(board)
 binding.pry
 end
-binding.pry
+#binding.pry
 winner.find {|token| token=="X"}
 
 
