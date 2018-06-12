@@ -97,9 +97,10 @@ end
 
 won?(board).detect do |winn|
 winn = won?(board)
+end
+
+winn.detect do |token|
+  token=="X"
 binding.pry
 end
-winner.detect do 
-
-
 end
