@@ -97,13 +97,9 @@ end
 
 won?(board).detect do |winner|
 winner = won?(board)
-#binding.pry
-end
-
-ab [0]= board[winner[0]]
-if ab[0] == "X" || ab[0]== "O"
-return ab
-end
-
-end
 binding.pry
+end
+
+
+end
+
