@@ -95,11 +95,11 @@ return nil
 end
 
 
-won?(board).detect do |winn|
-winn= won?(board)
+won?(board).detect do |winner|
+winner= won?(board)
 end
 
-winn.detect do |token|
+winner.detect do |token|
   token=="X"
 binding.pry
 end
