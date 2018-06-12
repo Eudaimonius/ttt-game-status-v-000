@@ -97,11 +97,12 @@ end
 
 won?(board).detect do |winner|
 winner= won?(board)
+if board[winner[0]] == "X"
+  return board[winner[0]]
+elsif board[winner[0]] == "O"
+  return board[winner[0]]
+end
 binding.pry
 end
 #binding.pry
-board[winner].find {|token| token=="X"}
-
-
-
 end
