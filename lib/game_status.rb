@@ -97,7 +97,7 @@ end
 
 won?(board).detect do |winner|
 winner = won?(board)
-binding.pry
+#binding.pry
 end
 
 ab = board[winner [0]]
