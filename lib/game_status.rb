@@ -96,7 +96,7 @@ end
 
 
 won?(board).detect do |winn|
-winn = won?(board)
+winn= won?(board)
 end
 
 winn.detect do |token|
